@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FoodieHub - Menu</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff3e0;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #ff6b00;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin-top: 30px;
+        }
+
+        input {
+            width: 300px;
+            padding: 12px;
+            border-radius: 20px;
+            border: 1px solid #ddd;
+            margin: 20px;
+        }
+
+        .food-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .food {
+            background-color: white;
+            padding: 20px;
+            width: 200px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .food img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #ff6b00;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <h1>🍴 FoodieHub Menu</h1>
+
+    <input type="text" placeholder="Search food...">
+
+    <h2>Our Menu</h2>
+
+    <div class="food-container">
+
+        <div class="food">
+            <img src="images/pizza.jpg.jpeg" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>₹199</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="food">
+            <img src="images/burger.jpg.jpeg" alt="Burger">
+            <h3>Burger</h3>
+            <p>₹149</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="food">
+            <img src="images/pasta.jpg.jpeg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>₹179</p>
+            <button>Order Now</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
